@@ -85,9 +85,9 @@ namespace Avalonia.MusicStore.Models
 - 添加如下所示的代码：
 
 ```csharp
-private readonly Album _album;
+private readonly Models.Album _album;
 
-public AlbumViewModel(Album album)
+public AlbumViewModel(Models.Album album)
 {
     _album = album;
 }
